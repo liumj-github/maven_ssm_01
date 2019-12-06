@@ -26,4 +26,9 @@ public class ItemsController {
 
         return "itemDetail";
     }
+
+    public String findAll(){
+        System.out.println("findAll");
+        return "success";
+    }
 }
